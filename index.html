@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechFest 2025</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>TechFest 2025</h1>
+    <div class="header-right">
+      <button id="menu-toggle">☰</button>
+      <nav>
+        <ul>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+      <button id="darkModeToggle">🌙</button>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h1>TechFest 2025 - May 30, San Francisco</h1>
+  </section>
+
+  <section id="details">
+    <h3>Event Details</h3>
+    <p>TechFest 2025 brings together developers, designers, and entrepreneurs to learn and connect in a vibrant, tech-forward environment.</p>
+  </section>
+
+  <section id="schedule">
+    <h3>Schedule</h3>
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Event</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10:00 AM</td>
+          <td>Opening Ceremony</td>
+        </tr>
+        <tr>
+          <td>11:00 AM</td>
+          <td>Speakers' Speeches</td>
+        </tr>
+        <tr>
+          <td>1:00 PM</td>
+          <td>Networking Lunch</td>
+        </tr>
+        <tr>
+          <td>3:00 PM</td>
+          <td>Workshop Sessions</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="speakers">
+    <h3>Featured Speakers</h3>
+    <div class="card-container">
+      <div class="card">
+        <img src="speaker 1.jpeg" alt="Speaker 1" />
+        <h4>Fei-Fei Li</h4>
+        <p>American computer scientist, AI Specialist</p>
+      </div>
+      <div class="card">
+        <img src="speaker 2.jpg" alt="Speaker 2" />
+        <h4>Elon Musk</h4>
+        <p>Founder of Tesla, SpaceX</p>
+      </div>
+      <div class="card">
+        <img src="speaker 3.jpeg" alt="Speaker 3" />
+        <h4>Satya Nadella</h4>
+        <p>CEO of Microsoft</p>
+      </div>
+      <div class="card">
+        <img src="speaker 4.jpeg" alt="Speaker 4" />
+        <h4>Andrew Ng</h4>
+        <p>AI Researcher, Co-founder of Coursera </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h3>Event Gallery</h3>
+    <div class="gallery">
+      <img src="img1.webp" alt="Gallery 1">
+      <img src="img2.jpg" alt="Gallery 2">
+      <img src="img3.jpg" alt="Gallery 3">
+    </div>
+  </section>
+
+  <section id="register">
+    <h3>Register Now</h3>
+    <form id="registrationForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <input type="tel" id="phone" placeholder="Your Phone Number" required />
+      <button type="submit">Register</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 TechFest</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
